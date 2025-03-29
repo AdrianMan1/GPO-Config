@@ -21,10 +21,11 @@ This tutorial outlines the implementation of Group Policy Objects within Microso
 
 Group Policy (GP) is a neccesary part of Active Directory. It allows system admins to configure user and domain properties on a wide scale. Since GP has hundreds, if not thousands of policies to configure, this will just be a mini lesson on how to use it. 
 
-Here we will be configuring our accont lockout threshhold properties, which in lamens terms is just a policy that determines how many attempts a user gets to log into their account before being locked out, for how long theyre locked out for and even how long it takes for the failed attempts counter to reset. While this is only a dot in the vast amount of things we can do with GP, all other group policies follow the same format of looking for them and configuring them.
+This tutorial will be on configuring our account lockout threshold properties, which in lamens terms is a set of policies that determine how many attempts a user gets to log into their account before being locked out, for how long theyre locked out for and even how long it takes for the failed attempts counter to reset. While this is only a dot in the vast amount of things we can do with GP, all other group policies follow the same format when we configure them.
 
-<h2>Configuration Steps</h2>
+<h2>Configuration Process</h2>
 Configuring any group policy follows the same process:
+
 - Opening the Group Policy Management Console (GPMC)
 - Creating a Group Policy Object (GPO)
 - Locating the Policy
@@ -41,6 +42,3 @@ Configuring any group policy follows the same process:
 <p>
   texttexttext
 </p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-</p>
-<br />
