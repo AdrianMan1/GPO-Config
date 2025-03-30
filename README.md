@@ -94,6 +94,17 @@ Once you have configured these settings, your account lockout policy page should
 
 <img src="https://github.com/user-attachments/assets/76a8ad88-fe5b-451a-80d4-c1e0e20b5f2a" height="500" width="300"> <img src="https://github.com/user-attachments/assets/4a8b72d7-db86-4ea3-902b-6273e7fb3d5f" height="500" width="300"> <img src="https://github.com/user-attachments/assets/33d958b6-c78f-4e17-8c95-f9f85e08b11f" height="500" width="300">
 
+**IMPORTANT CONSIDERATIONS**
+
+Account Lockout Threshold: Setting this too low (e.g., 1 or 2 attempts) can lead to unnecessary lockouts.
+
+
+Account Lockout Duration: Setting this too high can be inconvenient for users but increases security.
+
+
+Reset Account Lockout Counter After: Setting this too short could allow attackers to repeatedly attempt to log in without triggering a lockout.
+
+
 
 <ins>**Linking the GPO to an OU**<ins/>
 
@@ -117,4 +128,6 @@ Now that we have configured, added and linked our GPO to our OU, we need to upda
 This forces the computer and user policy to update within our domain, instead of waiting for it to be done manually. 
 
 ![image](https://github.com/user-attachments/assets/11bff098-3aaf-44d0-be59-6a2db7e16456)
+
+
 
