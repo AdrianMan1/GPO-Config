@@ -7,7 +7,7 @@ This tutorial outlines the implementation of Group Policy Objects within Microso
 
 <h2>Environments and Technologies Used</h2>
 
-- Microsoft Azure (Virtual Machines/Compute)
+- Microsoft Azure (Virtual Machines/Computers)
 - Remote Desktop
 - Group Policy Management Console
 - PowerShell
